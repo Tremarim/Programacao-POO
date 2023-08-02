@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Hobbie {
 	private static double salario;
-    private static String nomeCliente;
-    private static double emprestimo;
+    	private static String nomeCliente;
+    	private static double emprestimo;
 	
-    public static void main(String[] args) {
+public static void main(String[] args) {
 		System.out.println("Aqui vamos testar algumas coisas");
 		System.out.println("Vamos fazer uma coisa interessante aqui");
 		System.out.print("Digite um numero entre 1 a 5 >>> ");
@@ -51,7 +51,7 @@ public class Hobbie {
 
 
 
-	public static void raizquadrada(int opcao){
+public static void raizquadrada(int opcao){
 	System.out.print("Digite o valor que gostaria de saber sobre sua raiz quadrada: ");
 	Scanner entrada = new Scanner(System.in);
 	float numero = entrada.nextFloat();
@@ -64,7 +64,7 @@ public class Hobbie {
 	public static double calcularRaizQuadrada(float numero) {
     return Math.sqrt(numero);
 }
-	public static void calculadora (int entrada) {
+public static void calculadora (int entrada) {
 		System.out.println("Calculadora");
 		System.out.println("Não é permitido numeros maiores que 1000.");
 		System.out.print("Digite o primeiro numero: ");
@@ -93,7 +93,7 @@ public class Hobbie {
 		System.out.println("O resultado é: " + resultado);
 		entrada1.close();
 	}
-	public static double calcularOperacao(double num1, double num2, char operador) {
+public static double calcularOperacao(double num1, double num2, char operador) {
 		if (operador == '+') {
 			return  num1 + num2;
 		}
@@ -111,7 +111,7 @@ public class Hobbie {
 			return Double.NaN; // Valor especial que representa "Not a Number" (não é um número) //
 		}		
 	}
-	public static void encerra(int opcao) {
+public static void encerra(int opcao) {
 		System.out.println("Deseja voltar ao menu anterior?");
 		System.out.println("1 - Sim\n2 - Não");
 		System.out.print("Digite o numero");
@@ -129,7 +129,7 @@ public class Hobbie {
 			main(null);
 		}
 	}
-	public static void ler2variaveis(int opcao){
+public static void ler2variaveis(int opcao){
 	System.out.println("Digite 2 variaveis e vamos apresenta-la");
 	Scanner entrada = new Scanner(System.in);
 	System.out.print("Primeira Variável: ");
@@ -147,7 +147,7 @@ public class Hobbie {
 			// Não se esqueça de fechar o Scanner
 			entrada.close();
 	}
-	public static void ParesImpares (int opcao) {
+public static void ParesImpares (int opcao) {
 		
 			System.out.println("Impressão dos numeros");
 			System.out.println();
@@ -162,7 +162,7 @@ public class Hobbie {
 			}
 	}
 
-	public static void banco (int opcao) {		    
+public static void banco (int opcao) {		    
 	        Scanner scanner = new Scanner(System.in);
 	        int opcao1;
 
@@ -196,7 +196,7 @@ public class Hobbie {
 
 	        scanner.close();
 	}
-	    private static void cadastrarCliente(Scanner scanner) {
+	private static void cadastrarCliente(Scanner scanner) {
 	        System.out.print("Digite o nome do cliente: ");
 	        nomeCliente = scanner.next();
 	        
@@ -210,7 +210,7 @@ public class Hobbie {
 	        }
 	    }
 
-	    private static void realizarEmprestimo() {
+	private static void realizarEmprestimo() {
 	        if (salario > 500) {
 	            emprestimo = salario * 0.05;
 	            System.out.println("Crédito liberado. Valor do empréstimo: " + emprestimo);
@@ -219,7 +219,7 @@ public class Hobbie {
 	        }
 	    }
 
-	    private static void listarCliente() {
+	private static void listarCliente() {
 	        System.out.println("\nInformações do cliente:");
 	        System.out.println("Nome: " + nomeCliente);
 	        System.out.println("Salário: " + salario);
