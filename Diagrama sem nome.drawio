@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T16:40:27.938Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" version="21.6.8" etag="sabgyjLjEwj3muT9cK3r" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-15T16:58:31.388Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="5-QitmtiSC_R3dcc5Lqj" version="21.6.8" type="github">
   <diagram name="Página-1" id="DFeFXMHm3cvZI-hy6bKo">
-    <mxGraphModel>
+    <mxGraphModel dx="880" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VTRJpzoWHsSydeiOI0Pz-16" value="Produto" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="120" width="270" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="VTRJpzoWHsSydeiOI0Pz-17" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;Atributos&lt;br&gt;&lt;br&gt;+ nome; String&lt;br&gt;&lt;br&gt;+&amp;nbsp;preco; float&lt;br&gt;&lt;br&gt;+ descricao; String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VTRJpzoWHsSydeiOI0Pz-16">
+          <mxGeometry y="26" width="270" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="VTRJpzoWHsSydeiOI0Pz-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="VTRJpzoWHsSydeiOI0Pz-16">
+          <mxGeometry y="150" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="VTRJpzoWHsSydeiOI0Pz-19" value="&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;Métodos&lt;br&gt;&lt;br&gt;+&amp;nbsp;mostraNomeProduto();String&lt;br&gt;&lt;br&gt;+ mostraPreco();String&lt;br&gt;&lt;br&gt;+&amp;nbsp;mostradescricaoProduto(); void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VTRJpzoWHsSydeiOI0Pz-16">
+          <mxGeometry y="158" width="270" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="VTRJpzoWHsSydeiOI0Pz-29" value="Calculadora" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="250" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="VTRJpzoWHsSydeiOI0Pz-30" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Atributos&lt;br&gt;&lt;br&gt;+ valor; int&lt;br&gt;&lt;br&gt;+ operacao; String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VTRJpzoWHsSydeiOI0Pz-29">
+          <mxGeometry y="26" width="250" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="VTRJpzoWHsSydeiOI0Pz-31" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="VTRJpzoWHsSydeiOI0Pz-29">
+          <mxGeometry y="130" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="VTRJpzoWHsSydeiOI0Pz-32" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Métodos&lt;br&gt;&lt;br&gt;+ somar(int a, int b); int&lt;br&gt;&lt;br&gt;+ subtrair(int a, int b); int&lt;br&gt;&lt;br&gt;+&amp;nbsp;ultimaResultado(); int&lt;br&gt;&lt;br&gt;+&amp;nbsp;ultimaOperacao(); String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VTRJpzoWHsSydeiOI0Pz-29">
+          <mxGeometry y="138" width="250" height="152" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
