@@ -2,7 +2,7 @@ package Aula05;
 
 public class ativ03_computador {
 	
-	string nome;
+	String nome;
 	int clock;
 	
 	String mostraNomeComputador () {
